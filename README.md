@@ -13,13 +13,13 @@ This project demonstrates the concepts of **time complexity** and **space comple
 2. [Prerequisites](#prerequisites)
 3. [Time Complexity](#time-complexity)
    - \( O(1) \): Constant Time
-   - \( O(\log n) \): Logarithmic Time
+   - \( O(log n) \): Logarithmic Time
    - \( O(n) \): Linear Time
-   - \( O(n \log n) \): Linearithmic Time
+   - \( O(nlog n) \): Linearithmic Time
    - \( O(n^2) \): Quadratic Time
 4. [Space Complexity](#space-complexity)
    - \( O(1) \): Constant Space
-   - \( O(\log n) \): Logarithmic Space
+   - \( O(log n) \): Logarithmic Space
    - \( O(n) \): Linear Space
    - \( O(n^2) \): Quadratic Space
 5. [Examples](#examples)
@@ -50,11 +50,11 @@ To run this project, you need:
 ### Common Time Complexities:
 1. **Constant Time (\( O(1) \))**: Execution time is independent of input size.
    - Example: Accessing an array element by index.
-2. **Logarithmic Time (\( O(\log n) \))**: The input size is reduced by half at each step.
+2. **Logarithmic Time (\( O(log n) \))**: The input size is reduced by half at each step.
    - Example: Binary search.
 3. **Linear Time (\( O(n) \))**: Execution time grows linearly with input size.
    - Example: Traversing an array.
-4. **Linearithmic Time (\( O(n \log n) \))**: Combines linear and logarithmic growth.
+4. **Linearithmic Time (\( O(n log n) \))**: Combines linear and logarithmic growth.
    - Example: Merge sort.
 5. **Quadratic Time (\( O(n^2) \))**: Execution time grows quadratically.
    - Example: Nested loops iterating over arrays.
@@ -65,7 +65,7 @@ To run this project, you need:
 ### Common Space Complexities:
 1. **Constant Space (\( O(1) \))**: Memory usage is fixed regardless of input size.
    - Example: Swapping variables.
-2. **Logarithmic Space (\( O(\log n) \))**: Recursive calls reduce problem size by half.
+2. **Logarithmic Space (\( O(log n) \))**: Recursive calls reduce problem size by half.
    - Example: Recursive binary search.
 3. **Linear Space (\( O(n) \))**: Memory usage grows linearly with input size.
    - Example: Creating a copy of an array.
